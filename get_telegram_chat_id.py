@@ -16,21 +16,3 @@ def get_telegram_chat_id():
 
 
 print(get_telegram_chat_id())
-
-
-
-#def send_telegram_message():
-#
-#    api_key = "6576223609:AAFyKRhiBQzQvcoeL0-h-FbjBG8XFdOhe-s"
-#
-#    url = f'https://api.telegram.org/bot{api_key}/sendMessage'
-#
-#    param = {
-#        "chat_id": 332689919,
-#        "text": f'Привет! Время выполнить ПРИВЫЧКУ в МЕСТЕ'
-#    }
-#
-#    print(requests.get(url, param).json())
-#
-#
-#send_telegram_message()
