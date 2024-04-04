@@ -12,3 +12,10 @@ print(maximum(numbers))
 words = ["Apple", "banana", "Cherry", "Date", "Fig"]
 upper_word = list(filter(lambda word: word.istitle(), words))
 print(upper_word)
+
+
+# Напиши код, используя лямбда-выражение, чтобы отсортировать список по второму элементу каждого кортежа
+
+items = [("book", 20), ("pen", 5), ("pencil", 2), ("notebook", 10)]
+sorted_items = list(sorted(items, key=lambda item: item[1]))
+print(sorted_items)
